@@ -33,17 +33,18 @@ the answer (objective_value) should = 0.219869
 
 With regulation:
 
-To run ``include("determine_transcriptional_regulators.jl")``
+Running ``include("determine_transcriptional_regulators.jl")``, you should get four array and txt file, which present that if the transcriptional regulators and regulatory rules are true or false in aerobic and anaerobic condition. These regulation result had been code into the [DataDictionary.jl] file beforehand.
 
-To solve anerobic, please
+Next, to solve anerobic condition, please
 
-	julia> include("Solve_aerobic_noreg.jl")
+	julia> include("Solve_aerobic_reg.jl")
 	
 the answer (objective_value) should = 0.840673
 
+
 To solve anerobic, please
 
-	julia> include("Solve_anaerobic_noreg.jl")
+	julia> include("Solve_anaerobic_reg.jl")
 	
 the answer (objective_value) should = 0.219869
 
