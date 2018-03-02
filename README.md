@@ -13,8 +13,9 @@ The flux balance analysis problem is solved as a [Linear Programming (LP)](https
 
 ### Solving
 
+To check maximum growth rate per unit glucose uptake for aerobic and anaerobic cultures, and also for with/ without regulatory, please include the four solving code:
 
-
+	julia> include("
 
 
 
